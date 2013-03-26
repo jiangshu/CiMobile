@@ -1,4 +1,4 @@
 CiMobile
 ========
 
-android才持续集成框架
+android持续集成框架

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_weight = "1"
+    android:layout_marginBottom = "10dip">
+
+    
+    <TextView
+	android:id = "@+id/IpaddrStr"
+	android:layout_width = "fill_parent"
+	android:layout_height = "wrap_content"
+	android:text = "@string/IpaddrStr"
+	/>
+    	
+ <EditText
+ 	android:id = "@+id/IpaddrEdit"
+ 	android:layout_width = "fill_parent"
+ 	android:layout_height = "wrap_content"
+ 	android:text = "@string/ip"
+	/> 
+	
+ <TextView
+ 	android:id = "@+id/UsernameStr"
+ 	android:layout_width = "fill_parent"
+ 	android:layout_height = "wrap_content"
+ 	android:text = "@string/UsernameStr"
+ 	/>
+ 
+ <EditText
+ 	android:id = "@+id/UsernameEdit"
+ 	android:layout_width = "fill_parent"
+ 	android:layout_height = "wrap_content"
+ 	android:text = "@string/user"
+	/> 
+	
+ <LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:gravity="right" >  
+	<Button
+		android:id = "@+id/LoginBtn"
+		android:layout_width = "100dip"
+	 	android:layout_height = "wrap_content"
+	 	android:text = "@string/LoginBtnStr"
+		/> 
+  </LinearLayout>
+
+
+</LinearLayout>

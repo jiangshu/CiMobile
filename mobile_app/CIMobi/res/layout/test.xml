@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    
+    <EditText
+	 	android:id = "@+id/server_info"
+	 	android:layout_width = "fill_parent"
+	 	android:layout_height = "250dip"
+	 	android:background = "#343434" 	
+		android:paddingTop = "0px"
+		android:layout_marginBottom="30dip"
+		android:gravity = "top"
+		android:textColor= "#ffffff"
+		android:editable = "false"
+		android:scrollHorizontally = "false"
+		android:scrollbarAlwaysDrawVerticalTrack = "true"
+		android:textSize = "15dip"
+	 />
+    
+    <include layout="@layout/bottom_menu" />
+</RelativeLayout>

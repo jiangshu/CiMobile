@@ -34,7 +34,7 @@
      </div>
 
     <div class="down">
-        服务器端：<a href="./libs/CIMobile_Cmd.jar">下载</a>
+        服务器端：<a href="./libs/CIMobile_Server.jar">下载</a>
     </div>
 
     <div class="down">

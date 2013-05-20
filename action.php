@@ -23,8 +23,8 @@ class Command{
                 " port=".PORT.
                 " action=openBrowser".
                 $this->argument;
-//        PassThru($cmd);
-        echo $cmd;
+        PassThru($cmd);
+//        echo $cmd;
     }
 }
 

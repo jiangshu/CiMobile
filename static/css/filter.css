@@ -1,0 +1,30 @@
+.content_title{
+    font-size:20px;
+    text-align: center;
+    margin-bottom:20px;
+    color: #c48c0a;
+    font-weight: bold;
+}
+
+#log{
+    border-radius: 5px;
+    max-width:1000px;
+    height: 80px;
+    background: #3e3e3e;
+    padding:30px;
+    overflow-y:scroll;
+    margin-left:auto;
+    margin-right:auto;
+    color:#ffffff;
+    text-align:left;
+}
+
+#log ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#log ul li{
+
+}

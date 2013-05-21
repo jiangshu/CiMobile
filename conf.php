@@ -17,4 +17,10 @@ if(!defined("MOBILEINFO")){
     }
 }
 
-if(!defined("PORT")) define("PORT","3204");
+if(!defined("PORT")){
+    if(strtolower(PHP_OS) == 'linux'){
+        define("PORT","8801");
+    }else{
+        define("PORT","3204");
+    }
+}

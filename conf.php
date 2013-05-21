@@ -8,4 +8,13 @@ if(!defined("IP")){
         define("IP","192.168.1.108");
     }
 }
+
+if(!defined("MOBILEINFO")){
+    if(strtolower(PHP_OS) == 'linux'){
+        define("MOBILEINFO","./libs/mobile_info.xml");
+    }else{
+        define("MOBILEINFO","E:/javawork/ci_server/mobile_info.xml");
+    }
+}
+
 if(!defined("PORT")) define("PORT","3204");

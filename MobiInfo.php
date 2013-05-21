@@ -1,7 +1,9 @@
 <?php
+include_once("./conf.php");
+
 class MobileInfo{
     public  static function getMobileInfo(){
-        $xmlFile = "E:/javawork/ci_server/mobile_info.xml";
+        $xmlFile = MOBILEINFO;
         if(file_exists($xmlFile)){
             $mobileInfo = array();
             $dom = new DOMDocument('1.0',"utf-8");
